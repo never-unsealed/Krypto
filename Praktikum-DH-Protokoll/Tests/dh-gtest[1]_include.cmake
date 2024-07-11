@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-DH-Protokoll/Tests/dh-gtest[1]_tests.cmake")
+  include("/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-DH-Protokoll/Tests/dh-gtest[1]_tests.cmake")
+else()
+  add_test(dh-gtest_NOT_BUILT dh-gtest_NOT_BUILT)
+endif()

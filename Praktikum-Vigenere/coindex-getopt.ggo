@@ -1,0 +1,8 @@
+version "0.0.1"
+package "coindex"
+purpose "Command line options for the coindex executable
+
+By Prof. Dr. Christoph Karg <christoph.karg@hs-aalen.de>"
+
+option "max-columns" m "Maximum number of columns to be analyzed." int default="6" optional
+option "threshold" t "Threshold" float default="0.065" optional

@@ -1,0 +1,7 @@
+version "0.0.1"
+package "kasiski"
+purpose "Command line options for the kasiski executable
+
+By Prof. Dr. Christoph Karg <christoph.karg@hs-aalen.de>"
+
+option "len" l "Length of the ngrams to analyze" int default="3" optional

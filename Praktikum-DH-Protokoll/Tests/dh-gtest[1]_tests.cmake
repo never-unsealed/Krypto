@@ -1,0 +1,5 @@
+add_test( DhTest.NetintroAlice [==[/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/bin/dh-gtest]==] [==[--gtest_filter=DhTest.NetintroAlice]==] --gtest_also_run_disabled_tests)
+set_tests_properties( DhTest.NetintroAlice PROPERTIES WORKING_DIRECTORY [==[/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-DH-Protokoll/Tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( DhTest.NetintroBob [==[/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/bin/dh-gtest]==] [==[--gtest_filter=DhTest.NetintroBob]==] --gtest_also_run_disabled_tests)
+set_tests_properties( DhTest.NetintroBob PROPERTIES WORKING_DIRECTORY [==[/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-DH-Protokoll/Tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( dh-gtest_TESTS DhTest.NetintroAlice DhTest.NetintroBob)

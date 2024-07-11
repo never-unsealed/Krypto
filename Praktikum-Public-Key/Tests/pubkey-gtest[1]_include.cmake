@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-Public-Key/Tests/pubkey-gtest[1]_tests.cmake")
+  include("/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-Public-Key/Tests/pubkey-gtest[1]_tests.cmake")
+else()
+  add_test(pubkey-gtest_NOT_BUILT pubkey-gtest_NOT_BUILT)
+endif()

@@ -1,0 +1,12 @@
+version "0.0.1"
+package "des"
+purpose "Command line options for the aes executable
+
+By Prof. Dr. Christoph Karg <christoph.karg@hs-aalen.de>"
+
+option "key" k "Key to be used for encryption or decryption" string required
+option "out" o "output file" string optional
+defgroup "opmode" groupdesc="Operation mode (required)." required
+groupoption "encrypt" e "Encryption" group="opmode"
+groupoption "decrypt" d "Decryption" group="opmode"
+

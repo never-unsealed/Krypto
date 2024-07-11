@@ -1,0 +1,8 @@
+version "0.0.1"
+package "searchshift"
+purpose "Command line options for the searchshift executable
+
+By Prof. Dr. Christoph Karg <christoph.karg@hs-aalen.de>"
+
+option "columns" c "Number of columns to be analyzed." int default="6" required
+option "threshold" t "Threshold" float default="0.065" optional

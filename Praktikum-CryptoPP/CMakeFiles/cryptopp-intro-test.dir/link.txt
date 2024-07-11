@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcryptopp-intro-test.a CMakeFiles/cryptopp-intro-test.dir/PRNG.cpp.o CMakeFiles/cryptopp-intro-test.dir/BlumBlumShubGenerator.cpp.o
+/usr/bin/ranlib libcryptopp-intro-test.a

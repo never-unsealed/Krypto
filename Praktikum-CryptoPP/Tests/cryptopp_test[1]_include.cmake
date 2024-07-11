@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-CryptoPP/Tests/cryptopp_test[1]_tests.cmake")
+  include("/mnt/c/Users/never/Studium/6/Angewandte Kryptographie/repo/AK/src/Praktikum-CryptoPP/Tests/cryptopp_test[1]_tests.cmake")
+else()
+  add_test(cryptopp_test_NOT_BUILT cryptopp_test_NOT_BUILT)
+endif()

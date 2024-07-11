@@ -1,0 +1,14 @@
+version "0.0.1"
+package "polybius"
+purpose "Command line options for the polybius executable
+
+By Prof. Dr. Christoph Karg <christoph.karg@hs-aalen.de>"
+
+option "key" k "Key to be used for encryption or decryption" string optional
+option "out" o "output file" string optional
+defgroup "opmode" groupdesc="Operation mode (required)." required
+groupoption "encrypt" e "Encryption" group="opmode"
+groupoption "decrypt" d "Decryption" group="opmode"
+groupoption "table" t "Dump key table" group="opmode"
+groupoption "randomkey" r "Generate a random key" group="opmode"
+
